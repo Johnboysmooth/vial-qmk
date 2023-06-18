@@ -1,0 +1,35 @@
+{
+    "keyboard_name": "Player!",
+    "manufacturer": "johnboysmooth",
+    "url": "https://github.com/johnboysmooth/Player-macropad",
+    "maintainer": "johnboysmooth",
+    "processor": "atmega328p",
+    "bootloader": "usbasploader",
+    "features":{
+        "encoder": true
+    },
+    "encoder":{
+        "rotary": [
+            {"pin_a": "B1", "pin_b": "B2"}
+        ]
+    },
+	"usb": {
+		"vid": "0x20A0",
+		"pid": "0x42E2",
+		"device_version": "1.3.1"
+    },
+    "matrix_pins":{
+        "direct": [
+            ["C0", "C1", "C2", "C3", "C4"]
+        ]
+    },
+    "layouts":{
+        "LAYOUT_macropad_1x5": {
+            "layout": [
+                {"x":0, "y":0}, {"x":1, "y":0}, {"x":2, "y":0},{"x":3, "y":0},{"x":4, "y":0}
+            ]
+        }
+
+    }
+}
+
